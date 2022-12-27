@@ -51,6 +51,7 @@ export default function Home() {
       </nav>
       <main>
         <h1 class='text-7xl text-center bold'>Malcolm Wimbley.</h1>
+        <h2 class='text-6xl text-center bold text-gray-700'>Full-Stack Engineer.</h2>
       </main>
     
     </>

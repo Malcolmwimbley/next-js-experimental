@@ -6,17 +6,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    
+    
     --background-end-rgb: 0, 0, 0;
 
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
+
 
     --tile-start-rgb: 2, 13, 46;
     --tile-end-rgb: 2, 5, 19;
@@ -51,9 +45,9 @@ button{
 }
 
 main{
-  margin-top: 100px;
+  margin-top: 200px;
   font-weight: 700;
-  color:rgb(157, 176, 218)
+  color:rgb(255, 255, 255)
 }
 
 body {
@@ -73,6 +67,17 @@ h2{
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.icon{
+  display: flex;
+  padding: auto;
+  justify-content: center;
+  margin: 30px;
+}
+.icons{
+  margin: 0 10px;
+  
 }
 
 @media (prefers-color-scheme: dark) {

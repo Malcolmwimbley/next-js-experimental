@@ -4,7 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import { Application } from '@splinetool/runtime';
 import { SiNextdotjs, SiPython, SiTypescript, SiJavascript, SiJava, SiSqlite, SiMongodb, SiFacepunch } from "react-icons/si";
-
+import { FaGithub, FaInstagram, FaTwitter, FaLinkedin, FaYoutube, FaKaggle } from "react-icons/fa";
 
 
 export default function Home() {
@@ -55,38 +55,52 @@ export default function Home() {
           </div>
         </nav>
 
-      <main>
+        <div className='stickOne'>
+          <a href='http://www.github.com'><FaGithub /></a>
+          <a href='http://www.instagram.com'><FaInstagram /></a>
+          <a href='http://www.github.com'><FaTwitter /></a>
+          <a href='http://www.github.com'><FaLinkedin /></a>
+          <a href='http://www.github.com'><FaYoutube /></a>
+          <a href='http://www.github.com'><FaKaggle/></a>
+        </div>
 
-        <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-                <div className="relative overflow-hidden rounded-xl py-1.5 px-4 text-sm font-semibold leading-6 ring-1 ring-white hover:duration-300 hover:bg-white hover:ring-gray-400">
-                  <span className="text-gray-600">
-                    Blog: Backtesting S&P500 With Python.{' '}
-                    <a href="#" className="font-semibold text-indigo-600">
-                      <span className="absolute inset-0" aria-hidden="true" />
-                      Read more <span aria-hidden="true">&rarr;</span>
-                    </a>
-                  </span>
+        <div className='stickTwo'>
+          <a href='mailto:malcolmwimbley@gmail.com'>malcolmwimbley@gmail.com</a>
+        </div>
+
+
+
+        <main>
+          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+                  <div className="relative overflow-hidden rounded-xl py-1.5 px-4 text-sm font-semibold leading-6 ring-1 ring-white hover:duration-300 hover:bg-white hover:ring-gray-400">
+                    <span className="text-gray-600">
+                      Blog: Backtesting S&P500 With Python.{' '}
+                      <a href="#" className="font-semibold text-indigo-600">
+                        <span className="absolute inset-0" aria-hidden="true" />
+                        Read more <span aria-hidden="true">&rarr;</span>
+                      </a>
+                    </span>
+                  </div>
                 </div>
-              </div>
 
-        <h1 class='text-8xl text-center bold'>Malcolm Wimbley.</h1>
-        <h2 class='font-semibold text-4xl text-center text-gray-700'>Full-Stack And Database Engineer.</h2>
-        <div className='hidden w-full md:block'>
+          <h1 class='text-8xl text-center bold'>Malcolm Wimbley.</h1>
+          <h2 class='font-semibold text-4xl text-center text-gray-700'>Full-Stack And Database Engineer.</h2>
+          <div className='hidden w-full md:block'>
 
-        <h3 className='font-semibold text-lg text-center max-w-lg mx-auto my-5 text-indigo-900'>
-        ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum
-        </h3>
-        <div className='icon'>
-          <SiJavascript className='icons' size={30} style={{color: '#30364f'}} />
-          <SiTypescript className='icons' size={30} style={{color: '#7b87ba'}}/>
-          <SiNextdotjs className='icons' size={30} style={{color: '#a5add1'}}/>
-          <SiPython className='icons' size={30} style={{color: '#e4e6f0'}}/>
-          <SiJava className='icons' size={30} style={{color: '#a5add1'}}/>
-          <SiSqlite className='icons' size={30} style={{color: '#7b87ba'}}/>
-          <SiMongodb className='icons' size={30} style={{color: '#30364f'}}/>
-        </div>
-        </div>
-      </main>
+          <h3 className='font-semibold text-lg text-center max-w-lg mx-auto my-5 text-indigo-900'>
+          ultrices sagittis orci a scelerisque purus semper eget duis at tellus at urna condimentum mattis pellentesque id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum
+          </h3>
+          <div className='icon'>
+            <SiJavascript className='icons' size={30} style={{color: '#30364f'}} />
+            <SiTypescript className='icons' size={30} style={{color: '#7b87ba'}}/>
+            <SiNextdotjs className='icons' size={30} style={{color: '#a5add1'}}/>
+            <SiPython className='icons' size={30} style={{color: '#e4e6f0'}}/>
+            <SiJava className='icons' size={30} style={{color: '#a5add1'}}/>
+            <SiSqlite className='icons' size={30} style={{color: '#7b87ba'}}/>
+            <SiMongodb className='icons' size={30} style={{color: '#30364f'}}/>
+          </div>
+          </div>
+        </main>
     
 
       

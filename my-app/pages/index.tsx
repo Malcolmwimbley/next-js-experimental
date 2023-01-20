@@ -52,17 +52,17 @@ export default function Home() {
               </ul>
               
             </div>
-            
+
           </div>
         </nav>
 
         <div className='stickOne'>
-          <a href='http://www.github.com'><FaGithub /></a>
-          <a href='http://www.instagram.com'><FaInstagram /></a>
-          <a href='http://www.github.com'><FaTwitter /></a>
-          <a href='http://www.github.com'><FaLinkedin /></a>
-          <a href='http://www.github.com'><FaYoutube /></a>
-          <a href='http://www.github.com'><FaKaggle/></a>
+          <a href='http://www.github.com'><FaGithub size={20} /></a>
+          <a href='http://www.instagram.com'><FaInstagram size={20} /></a>
+          <a href='http://www.github.com'><FaTwitter size={20}/></a>
+          <a href='http://www.github.com'><FaLinkedin size={20}/></a>
+          <a href='http://www.github.com'><FaYoutube size={20} /></a>
+          <a href='http://www.github.com'><FaKaggle size={20}/></a>
         </div>
 
         <div className='stickTwo'>
